@@ -20,14 +20,14 @@
                       <img src="../assets/images/our-office-4-square.jpg" alt="">
                       <div class="text">
                           <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong></p>
-                          <p>12:53 AM Dec 19th</p>
+                          <p class="date">12:53 AM Dec 19th</p>
                       </div>
                   </div>
                   <div class="d-flex">
                       <img src="../assets/images/our-office-5-square.jpg" alt="">
                       <div class="text">
                           <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong></p>
-                          <p>12:53 AM Dec 19th</p>
+                          <p class="date">12:53 AM Dec 19th</p>
                       </div>
                   </div>
               </div>
@@ -35,10 +35,31 @@
                   <h6>RECENT COMMENTS</h6>
                   <div class="recent-comment">
                       <p class="new-comment"><i class="fa-solid fa-chevron-right"></i><strong>John Doe</strong> commented on <span>Lorem ipsum dolor sit amet.</span> </p>
-                      <p>12:53 AM Dec 19th</p>
+                      <p class="date">12:53 AM Dec 19th</p>
+                  </div>
+                  <div class="recent-comment">
+                      <p class="new-comment"><i class="fa-solid fa-chevron-right"></i><strong>John Doe</strong> commented on <span>Lorem ipsum dolor sit amet.</span> </p>
+                      <p class="date">12:53 AM Dec 19th</p>
                   </div>
               </div>
-              <div class="col"></div>
+              <div class="col">
+                  <h6>CATEGORIES</h6>
+                  <div class="categories">
+                      <span> GADGETS</span>
+                      <span>PHOTOGRAPHY</span>
+                      <span>LIFESTYLE</span>
+                      <span>FASHION</span>
+                      <span>RECIPES</span>
+                      <span>TRAVEL</span>
+                      <span>BUINESS</span>
+                      <span>ARCHITECTURE</span>
+                      <span>REVEWS</span>
+                      <span>SPORTS</span>
+                      <span>VIDEOS</span>
+                      <span>TECHNOLOGY</span>
+                      <span>DESIGN</span>
+                  </div>
+              </div>
               </div>
           </div>
       </div>
@@ -76,7 +97,10 @@ name:'FooterComp'
         color: #777777;
     }
     img{
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
+        margin-right: 5px;
     }
     .recent-comment{
         & i ,& span{
@@ -85,6 +109,20 @@ name:'FooterComp'
     .new-comment{
         color: white;
     }
+    
+    }
+    .categories span{
+        background-color: black;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        margin: 5px;
+        padding: 3px 2px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    }
+    .date{
+        font-size: 0.8rem;
     }
     
 }
