@@ -4,7 +4,8 @@
       <div class="container d-flex mt-4">
           <PostsComp
           :posts="popularPosts"/>
-          <PostsComp/>
+          <PostsComp
+          :posts="recentPosts"/>
           <FeaturedPosts/>
       </div>
       <TagBandComp/>
@@ -37,8 +38,11 @@ data(){
         recentPosts:[],
     }
 },
+mounted(){
+this.popularPost()
+},
 methods:{
-    popularPosts(){
+    popularPost(){
         this.posts.forEach(post => {
             if(post.category==='popular'){
                 this.popularPosts.push(post)

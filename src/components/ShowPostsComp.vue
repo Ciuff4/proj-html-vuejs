@@ -2,7 +2,9 @@
   <section>
       <div class="container d-flex pt-5">
           <div class="side">
-              <BigPostBolgComp/>
+              <BigPostBolgComp
+              v-for=" (post , index) in posts" :key="`bigPost(${index})`"
+              :post="post"/>
           </div>
           <div class="aside ps-3">
               <h6>LATEST FROM TWITTER</h6>
@@ -61,9 +63,17 @@
 
 <script>
 import BigPostBolgComp from "./BigPostBolgComp.vue";
+
+import Posts from "../assets/data/Posts";
+
 export default {
 name:'ShowPostsComp',
 components:{BigPostBolgComp},
+data(){
+   return{
+       posts:Posts
+   }
+}
 }
 </script>
 

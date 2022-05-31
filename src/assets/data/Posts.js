@@ -5,7 +5,8 @@ export default[
         date_published:'january 12 , 2019',
         author:'John Doe',
         tag:'',
-        category:'popular'
+        category:'popular',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
     },
     {
         title:'ranking the greatest players in basketball',
@@ -13,7 +14,8 @@ export default[
         date_published:'january 12 , 2019',
         author:'John Doe',
         tag:'',
-        category:'popular'
+        category:'popular',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
     },
     {
         title:'4 ways to look cool in glasses',
@@ -21,7 +23,8 @@ export default[
         date_published:'january 12 , 2019',
         author:'John Doe',
         tag:'',
-        category:'popular'
+        category:'popular',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
     },
     {
         title:'top camper trailer towing tips',
@@ -29,7 +32,8 @@ export default[
         date_published:'january 12 , 2019',
         author:'John Doe',
         tag:'',
-        category:'popular'
+        category:'popular',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
     },
     {
         title:'5 lovely walks in new york',
@@ -37,6 +41,53 @@ export default[
         date_published:'january 12 , 2019',
         author:'John Doe',
         tag:'',
-        category:'popular'
-    }    
+        category:'popular',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+    {
+        title:'main reasons to stop texting and driving',
+        image:require('../images/blog-65.jpg'),
+        date_published:'january 12 , 2019',
+        author:'John Doe',
+        tag:'',
+        category:'recent',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+    {
+        title:'tips to help you quickly prepare your lunch',
+        image:require('../images/blog-66.jpg'),
+        date_published:'january 12 , 2019',
+        author:'John Doe',
+        tag:'',
+        category:'recent',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+    {
+        title:'why should i buy a smartwatch',
+        image:require('../images/blog-67.jpg'),
+        date_published:'january 12 , 2019',
+        author:'John Doe',
+        tag:'',
+        category:'recent',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+    {
+        title:'the best augmented reality smartglasses',
+        image:require('../images/blog-68.jpg'),
+        date_published:'january 12 , 2019',
+        author:'John Doe',
+        tag:'',
+        category:'recent',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+    {
+        title:'12 healthiest foods to eat for breakfast',
+        image:require('../images/blog-69.jpg'),
+        date_published:'january 12 , 2019',
+        author:'John Doe',
+        tag:'',
+        category:'recent',
+        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias perferendis quod, ipsam dicta corporis veritatis voluptate dignissimos distinctio magnam.'
+    },
+
 ]

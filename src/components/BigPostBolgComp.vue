@@ -1,19 +1,19 @@
 <template>
-  <div class="post">
-      <img class="w-100 pb-3" src="../assets/images/blog-55 (1).jpg" alt="">
+  <div class="post" >
+      <img class="w-100 pb-3" :src="`${post.image}_(1).jpg`" alt="">
       <div class="d-flex">
           <div class="day d-flex flex-column mt-3 me-3">
               <span class="day-published">12</span>
               <span class="month-published">jan</span>
           </div>
           <div class="post-text">
-              <h4>titolo</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore magni dolorem in sed incidunt libero, eligendi neque pariatur doloremque numquam, qui minus enim veritatis repellendus sequi ea porro veniam dicta fugiat! Dolorum totam, ut blanditiis enim odit cumque molestiae.</p>
+              <h4>{{post.title}}</h4>
+              <p>{{post.text}}</p>
               <div class="post-info d-flex ">
                   <div class="post-info-sx d-flex justify-content-around w-50">
                       <div>
                         <i class="fa-solid fa-user"></i>
-                        <span>by John Doe</span>
+                        <span>by {{post.author}}</span>
                       </div>
                       <div>
                         <i class="fa-solid fa-folder"></i>
@@ -35,7 +35,10 @@
 
 <script>
 export default {
-
+name:'BigPostBlogComp',
+props:{
+    post:Object
+}
 }
 </script>
 

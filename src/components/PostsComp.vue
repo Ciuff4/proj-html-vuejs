@@ -3,7 +3,7 @@
       <h6> POPULAR POSTS</h6>
       <ul class="pl-0 flex-column">
           <li
-          v-for="(post , index) in posts" :key="`post(${index})`"
+          v-for="post in posts" :key="`post(${post.category})`"
           class="d-flex pb-3">
               <img :src="post.image" alt="">
               <div class="text ps-3">
@@ -42,5 +42,6 @@ p{
 }
 span{
     color: #B7B7B7;
+    font-size: 0.8rem;
 }
 </style>
