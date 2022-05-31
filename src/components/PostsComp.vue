@@ -25,6 +25,8 @@ props:{
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/vars.scss';
+
 section{
     width: calc(100% / 3);
     li{
@@ -39,6 +41,9 @@ img{
 }
 p{
     text-transform: capitalize;
+    &:hover{
+        color: $primary-color;
+    }
 }
 span{
     color: #B7B7B7;

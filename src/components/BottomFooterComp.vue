@@ -1,5 +1,6 @@
 <template>
   <div class="footer-bottom ">
+      <div class=""></div>
       <div class="container d-flex justify-content-between align-items-center h-100">
           <div>
           <img src="../assets/images/logo-footer.png" alt="">
